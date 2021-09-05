@@ -14,7 +14,7 @@ import net.runelite.client.plugins.PluginDescriptor;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Example"
+	name = "Trailblazer Audio Announcement"
 )
 public class TrailblazerAudioAnnouncementPlugin extends Plugin
 {
