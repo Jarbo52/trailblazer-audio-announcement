@@ -6,7 +6,7 @@ A **huge** thank you to [C Engineer Completed](https://github.com/m0bilebtw/c-en
 
 Thank you to the [Leagues discord](https://discord.com/invite/vbhPUHU) for keeping me entertained while Leagues itself is not going on.
 
-##Note: You must turn on the chat indicators for Collection Log in your Settings for the sound effect to play!
+## Note: You must turn on the chat indicators for Collection Log in your Settings for the sound effect to play!
 
 ### Planned / Work In Progress expansions
 - None
