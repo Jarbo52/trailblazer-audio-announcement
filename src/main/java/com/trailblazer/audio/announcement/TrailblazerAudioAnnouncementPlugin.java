@@ -70,8 +70,6 @@ public class TrailblazerAudioAnnouncementPlugin extends Plugin
 			case LOGIN_SCREEN_AUTHENTICATOR:
 			case CONNECTION_LOST:
 				resetTicks = true;
-				// set to 0 here in-case of race condition with varbits changing before this handler is called
-				// when game state becomes LOGGED_IN
 				ticksSinceLogin = 0;
 				break;
 			case LOGGED_IN:

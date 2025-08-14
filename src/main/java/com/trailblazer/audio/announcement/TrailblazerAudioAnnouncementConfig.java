@@ -3,6 +3,7 @@ package com.trailblazer.audio.announcement;
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
+import net.runelite.client.config.Range;
 
 @ConfigGroup(TrailblazerAudioAnnouncementConfig.GROUP)
 public interface TrailblazerAudioAnnouncementConfig extends Config
@@ -24,5 +25,17 @@ public interface TrailblazerAudioAnnouncementConfig extends Config
 			position = 1
 	)
 	default boolean playCollectionLog() { return true; }
+
+	@Range(
+			min = 0,
+			max = 200
+	)
+	@ConfigItem(
+			keyName = "announcementVolume",
+			name = "Announcement volume",
+			description = "Adjust how loud the audio announcements are played!",
+			position = 2
+	)
+	default int announcementVolume() { return 100; }
 
 }
